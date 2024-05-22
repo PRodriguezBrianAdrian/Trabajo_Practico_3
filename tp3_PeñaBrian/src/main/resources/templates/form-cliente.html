@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Formulario para el cliente</h1>
+    </header>
+    <nav>
+		<ul>
+
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="https://www.fi.unju.edu.ar/" target="blank">Fi
+					Unju</a></li>
+			<li><a href="https://virtual.unju.edu.ar/course/view.php?id=2540" target="blank">Aula Virtual</a></li>
+			<li><a href="#sobre-nosotros">Sobre nosotros</a></li>
+			<li><a href="#contacto">Contacto</a></li>
+
+		</ul>
+
+	</nav>
+<form >
+    <label for="Dni">Dni</label><br>
+    <input type="number"  id="Dni" required><br>
+
+    <label for="nombres">Nombre/s</label><br>
+    <input type="text" id="nombre" required><br>
+
+    <label for="apellidos">Apellido/s</label><br>
+    <input type="text" id="apellidos"><br>
+
+    <label for="Fecha de nacimiento">Fecha de Nacimiento</label><br>
+    <input type="date" id="Fecha de Nacimiento" required><br>
+
+    <label for="genero">Genero</label><br>
+    
+    <label for="masculino">Masculino</label>
+    <input type="radio" id="masculino" name="genero" value="masculino">
+    <label for="femenino">Femenino</label>
+    <input type="radio" id="femenino" name="genero" value="femenino"">
+    <label for="x">X</label>
+    <input type="radio" id="x" name="genero" value="x"> <br>
+
+    <label for="correo">Correo Electronico</label><br>
+    <input type="email" id="correo" required><br>
+
+    <label for="domicilio">Domicilio:</label><br>
+    <input type="text" id="domicilo" required><br><br>
+
+    <label for="provincia">Provincia</label><br>
+    <SELECt>
+    <option value="Selected">Elija una opcion</option>
+    <option value="Jujuy">Jujuy</option>
+    <option value="Salta">Salta</option>
+    <option value="Tucuman">Tucuman</option>
+    <option value="Cordoba">Cordoba</option>
+    <option value="Santiago del Estero">Santiago del Estero</option>
+    <option value="Buenos Aires">Buenos Aires</option>
+    </SELECt><br>
+
+    <label for="telefono">Numero de Telefono Celular</label><br>
+    <input type="tel" id="telefono"><br>
+
+    <label for="categoria">Seleccionar categorias de interes</label><br>
+    
+    <input type="checkbox" id="categoria" name="Facultad de Ingenieria" value="Internet">
+    <label for="categoria"> Facultad de Ingenieria</label><br>
+    <input type="checkbox" id="categoria" name="Facultad de Humanidades" value="Cable">
+    <label for="categoria"> Facultad de Humanidades</label><br>
+    <input type="checkbox" id="categoria" name="Facultad de Economia" value="Telefonia">
+    <label for="categoria"> Facultad de Economia</label><br>
+    <input type="checkbox" id="categoria" name="Facultad de Ciencias Agrarias" value="Telefonia">
+    <label for="categoria"> Facultad de Ciencias Agrarias</label><br>
+
+    <label for="sugerencia">Sugerencias para la empresa</label><br>
+    <textarea id="sugerencia" name="sugerencia" rows="10" cols="30"></textarea><br>
+
+    <label for="password">Password</label> <br>
+
+    <input type="password" id="password" required><br>
+
+    <label for="terminos">Acepto los terminos y condiciones</label><br>
+    <input type="checkbox" id="terminos" value="terminos" required><br>
+    
+    <label for="informacion">Acepto recibir informacion relativa a la empresa</label><br>
+    <input type="checkbox" id="informacion" value="informacion"><br>
+
+    <button type="submit">Enviar</button>
+</form>
+<footer>
+    <p>Contacto: brianrodriguzlprc@gmail.com</p>
+	<p>Redes Sociales: <a href="https://github.com/PRodriguezBrianAdrian">GitHub</a></p>
+</footer>
+</body>
+</html>
+
